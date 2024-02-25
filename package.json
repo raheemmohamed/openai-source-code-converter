@@ -1,0 +1,36 @@
+{
+  "name": "openai-code-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start:watch:js": "nodemon dist/src/index.js",
+    "start:watch:ts": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generative ai code converter",
+    "open ai code converter",
+    "javascript code converter",
+    "typescript code converter",
+    "openai"
+  ],
+  "author": "Raheem",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/acorn": "^6.0.0",
+    "@types/esprima": "^4.0.6",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@typescript-eslint/typescript-estree": "^7.0.2",
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "esprima": "^4.0.1",
+    "express": "^4.18.2",
+    "openai": "^4.28.0"
+  }
+}
