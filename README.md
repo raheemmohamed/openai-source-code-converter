@@ -25,7 +25,7 @@ At the moment, you can only convert large but non-nested JavaScript or TypeScrip
 - `Acorn` - Javascript Parser [Refer Documentation](https://www.npmjs.com/package/acorn/v/8.11.3)
 - `Acorn Walker` - AST(Abstract Syntax Tree) Generator [Refer Documentation](https://www.npmjs.com/package/acorn-walk)
 - `Typescript ESList Parser` - Typescript Parser [Refer Documentation](https://www.npmjs.com/package/@typescript-eslint/parser)
-- `Nodemon` - JS code change detector
+- `Nodemon` - JS code change detector [Refer Documentation](https://www.npmjs.com/package/nodemon)
 
 ## Who Am I ?
 
